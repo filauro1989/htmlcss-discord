@@ -17,13 +17,14 @@ html {
     float: left;
 }
 .btn {
-    padding: 0.8em;
-    border-radius: 14px;
+    padding: 0.7em 1.2em;
+    border-radius: 22px;    
+    background-color: white;
+    color: black;
 }
 /* jumbotron */
 .jumbotron {
     width: 100%;
-    height: 500px;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +61,7 @@ html {
 .navbar-list li a:active {
     text-decoration: underline;
 }
-.navbar a {
+.jumbotron a {
     text-decoration: none;
     color: white;
 }
@@ -68,9 +69,37 @@ html {
     width: 20%;
 }
 .navbar-right-col a{
-    background-color: white;
     color: black;
 }
 a.btn:hover {
     color: #265ee8;
+    text-decoration: underline
+}
+
+/* header content */
+.jumbo-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5em 0;
+    color: white;
+}
+.jumbo-content h1 {
+    line-height: 3em;
+}
+.jumbo-content p {
+    line-height: 1.5em;
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
+.jumbo-btn-container a {
+display: inline-block;
+font-size: 0.8em;
+margin: 0 0.5em;
+}
+a.white-text {
+    color: black;
+}
+.jumbo-btn-container a.background-blu {
+    background-color: #23272a;
 }
