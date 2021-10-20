@@ -240,14 +240,12 @@ footer li {
 .footer-bottom-container {
     width: 70%;
     margin: 0 auto;
-    padding: 2em 0;}
-.footer-bottom-container img {
-
+    padding: 2em 0;
 }
 .footer-bottom-container a {
-float: right;
-background-color: #7983F5;
-text-decoration: none;
-color: white;
+    float: right;
+    background-color: #7983F5;
+    text-decoration: none;
+    color: white;
 }
 
