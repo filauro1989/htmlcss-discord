@@ -138,6 +138,7 @@ main {
 .main-row-content p {
     margin-top: 1.5em;
 }
+/* last row  */
 .last-row {
     width: 100%;
     text-align: center;
@@ -152,3 +153,31 @@ main {
 .last-row p {
     margin-top: 1em;
 }
+/* main footer  */
+.main-footer {
+    margin: 3em 0;
+}
+.main-footer a {
+    display: inline-block;
+}
+.main-footer div {
+    margin: 0 auto;
+    text-align: center;
+}
+.main-footer-btn {
+    width: 100%;
+    margin: 0 auto;
+}
+.main-footer-btn a {
+    background-color: #7983F5;
+    text-decoration: none;
+    color: white;
+}
+.main-footer-text {
+    background-image: url(../img/stars.svg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2em 0;
+}
+
