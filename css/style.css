@@ -22,6 +22,11 @@ html {
     background-color: white;
     color: black;
 }
+p {    
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: bold;
+}
 /* jumbotron */
 .jumbotron {
     width: 100%;
@@ -129,10 +134,21 @@ main {
 .main-row-content h1,
 .main-row-content p {
     width: 70%;
-    font-weight: bold;
 }
 .main-row-content p {
-    font-size: 0.9em;
     margin-top: 1.5em;
-    line-height: 1.5em;
+}
+.last-row {
+    width: 100%;
+    text-align: center;
+    margin-top: 4em;
+}
+.last-row img {
+    width: 100%;
+}
+.last-row h1 {
+    font-size: 1.7em;
+}
+.last-row p {
+    margin-top: 1em;
 }
