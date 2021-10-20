@@ -103,3 +103,36 @@ a.white-text {
 .jumbo-btn-container a.background-blu {
     background-color: #23272a;
 }
+
+/* main  */
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* row  */
+.main-row-img {
+    width: 60%;
+    float: left;
+    margin: 3em 0;
+}
+.main-row-img img {
+    width: 90%;
+    vertical-align: middle;
+    margin-right: 2em;
+}
+.main-row-content {
+    width: 40%;
+    float: left;
+    margin: 4.5em 0;
+}
+.main-row-content h1,
+.main-row-content p {
+    width: 70%;
+    font-weight: bold;
+}
+.main-row-content p {
+    font-size: 0.9em;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
